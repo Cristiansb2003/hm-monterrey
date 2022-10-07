@@ -1,6 +1,6 @@
 import React,{useState} from "react"; 
 import "./actimg.css";
-import CloseIcon from '@mui/icons-material/Close';;
+import CloseIcon from '@material-ui/icons/Close';
 
 import img1AP from './../../utils/actividad-piloto/img1AP.jpg'
 import img2AP from './../../utils/actividad-piloto/img2AP.jpg'
