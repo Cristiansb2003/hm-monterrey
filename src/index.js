@@ -15,11 +15,7 @@ root.render(<>
 <Cabecera/>
 
 <Carrucel/>
-<Qs/>
 
-<Mision/>
-
-<Vision/>
 
 <ActImg />
 
