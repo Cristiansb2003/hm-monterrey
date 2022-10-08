@@ -11,4 +11,5 @@ root.render(<>
 <Cabecera/>
 <Carrucel/>
 <ActImg/>
+<h1>Saqué 25</h1>
 </>);
