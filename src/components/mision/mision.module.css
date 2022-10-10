@@ -1,0 +1,103 @@
+.quienes{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#fff;
+    width: 75%;
+    margin:0 auto;
+    min-height: 500px;
+    font-family: 'Roboto', serif;
+    font-size: large;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    border-style: solid;
+    border-left-color: #fff;
+    border-right-color: #fff;
+    border-top-color: #3E5DAD;
+    border-bottom-color: #55B946;
+    border-width: 2px;
+    border-left-color: #3E5DAD;
+    border-left-width: 5px;
+    border-right-color:#55B946;
+    border-right-width: 5px;
+}
+
+.somos{
+    color: #000;
+    position: relative;
+    text-align: justify;
+    margin-left: 4%;
+    margin-right: 4%;
+
+    font-family: 'Quicksand', serif;
+    font-size: large;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    z-index: 101;
+    padding-bottom: 20%;
+    
+    
+}
+
+.arriba {
+  clip-path: polygon(0 23%, 50% 46%, 100% 23%, 100% 0, 0 0);
+  width: 100.1%;
+  vertical-align: auto;
+    height: 40%;
+    position: absolute;
+    background: #3E5DAD;
+    border-top-color:#3E5DAD;
+    border-right-color:#3E5DAD;
+    border-left-color:#3E5DAD;
+    border-left-width: 1px;
+    top: -0.2%;
+  }
+  .abajo {
+    clip-path: polygon(0 100%, 50% 65%, 100% 100%, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    background: #55B946;
+    
+    z-index: auto;
+    bottom: -0.2%;
+    border-bottom-color:#55B946;
+  }
+
+  h1{
+    z-index: 2;
+  }
+
+  .frente{
+    font-size: 120%;
+    position: relative;
+    z-index: 100;
+    margin-top: -1%;
+  }
+
+  .prueba{
+    margin-top: 2.5%;
+  }
+
+  @media screen and (max-width: 768px){
+    .somos{
+        padding-bottom: 70%;
+        padding-top: 45%;
+    }
+    .prueba{
+      padding-top: 20%;
+    }
+  }
+  
