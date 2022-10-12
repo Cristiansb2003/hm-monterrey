@@ -1,6 +1,6 @@
 import React,{useState} from "react"; 
 import "./actimg.css";
-import Images from './utils/images.jsx';
+import Images from './../../utils/images.jsx';
 
 export function ActImg() {
     const[selectedImg, setSelectedImg] = useState(Images[0]);
@@ -11,7 +11,7 @@ export function ActImg() {
             <img src={selectedImg} alt="Seleccionada" className="selected" />
             <div className="imgContainer">
                 {Images.map((img, index) => (
-                    <img style={{border: selectedImg === img ? "" : ""}}
+                    <img 
                     key={index} 
                     src={img} 
                     alt="grupo" 
