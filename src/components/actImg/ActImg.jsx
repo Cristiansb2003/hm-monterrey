@@ -1,8 +1,6 @@
 import React,{useState} from "react"; 
 import "./actimg.css";
-const Images = [
-  {img1AP: require ('./../../utils/actividad-piloto/img1AP.jpg').default}
-]
+import Images from './../../utils/images.jsx';
 
 export function ActImg() {
     const[selectedImg, setSelectedImg] = useState(Images[0]);
@@ -15,8 +13,8 @@ export function ActImg() {
                 {Images.map((img, index) => (
                     <img 
                     key={index} 
-                    src={img} 
-                    alt="grupo" 
+                    src={img.img} 
+                    alt={img.title} 
                     onClick={() => setSelectedImg(img)}
                     />
                 ))}
