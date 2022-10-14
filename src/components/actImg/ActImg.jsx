@@ -1,6 +1,8 @@
 import React,{useState} from "react"; 
 import "./actimg.css";
-import Images from './../../utils/images.jsx';
+const Images = [
+  {img1AP: require ('./../../utils/actividad-piloto/img1AP.jpg').default}
+]
 
 export function ActImg() {
     const[selectedImg, setSelectedImg] = useState(Images[0]);
