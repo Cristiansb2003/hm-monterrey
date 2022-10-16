@@ -8,6 +8,7 @@ import img7AP from './actividad-piloto/img7AP.jpg'
 import img8AP from './actividad-piloto/img8AP.jpg'
 import img9AP from './actividad-piloto/img9AP.jpg'
 import img10AP from './actividad-piloto/img10AP.jpg'
+
 const Images = [
     {
         "img": img1AP,
